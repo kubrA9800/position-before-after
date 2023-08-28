@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+#Destinations{
+    padding-top: 3rem;
+}
+.title{
+    text-align: center;
+}
+h4{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 100px;
+    
+}
+h2{
+    font-size: 36px;
+    color:#555555;
+    margin-top: 20px;
+}
+.container{
+    padding: 0 10rem;
+}
+.box-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.box{
+    width: 30%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.box img{
+    width: 100%;
+    vertical-align: middle; 
+}
+.box .icon{
+    width: 10%;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.text{
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.box-blue{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+    background-color: #14b9d5;
+    width: 100%;
+    height: 100%;
+    opacity: 0%;  
+    transition: .9s;
+}
+.box:hover .box-blue{
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+} 
+h3{
+    font-size: 20px;
+    margin-top: 5rem;
+}
+.city{
+    margin: 20px 0;
+}
+.city a{
+    color: #fff;
+    display: block;
+    margin: 5px 0;
+   
+}
+.view {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 30px;
+    color:#14b9d5
+    
+}
+.holiday{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+    padding: 4rem 0;
+    background-position: center;
+    background-size: cover;
+    margin: 5rem 0;
+}
+h1{
+    font-size: 50px;
+    color: #fff;
+}
+.holiday-text{
+    
+    margin-right: 5rem;
+}
+.packages a{
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 40px;
+    color: #f76570;
+} 
+.holiday-text span{
+    position: relative;
+    z-index: 1;
+
+}
+.holiday-text span::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #f76570;
+    bottom: 5px;
+    left: 0;
+    z-index: -1;
+}
+.title span{
+    position: relative;
+    z-index: 1;
+}
+.title span::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color:#1bbc9b;
+    bottom: 6px;
+    left: 0;
+    z-index: -1;
+}
